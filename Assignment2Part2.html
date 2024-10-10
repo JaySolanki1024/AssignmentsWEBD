@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 - Tables</title>
+    <link rel="stylesheet" href="Style2.css"> <!-- Link to the external stylesheet for styling -->
+</head>
+<body>
+
+    <!-- Table 1: List of Favorite Movies or TV Shows -->
+    <table>
+        <caption><b>My Favorite TV Shows</b></caption> <!-- Title for the table -->
+        <thead>
+            <tr>
+                <th scope="col">Title</th> <!-- Header for the column with TV show titles -->
+                <th scope="col">Genre</th> <!-- Header for the column with genres -->
+                <th scope="col">Year Released</th> <!-- Header for the column with release years -->
+                <th scope="col">Seasons</th> <!-- Header for the column with number of seasons -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Breaking Bad</td>
+                <td>Crime, Drama</td>
+                <td>2008</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Stranger Things</td>
+                <td>Fantasy, Horror</td>
+                <td>2016</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Money Heist</td>
+                <td>Fantasy, Drama, Crime</td>
+                <td>2017</td>
+                <td>5</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Table 2: Daily Schedule Overview -->
+    <table>
+        <caption><b>My Weekday Schedule</b></caption> <!-- Title for the schedule table -->
+        <thead>
+            <tr>
+                <th scope="col">Time</th> <!-- Header for the column showing time slots -->
+                <th scope="col">Monday</th> <!-- Header for the Monday schedule column -->
+                <th scope="col">Tuesday</th> <!-- Header for the Tuesday schedule column -->
+                <th scope="col">Wednesday</th> <!-- Header for the Wednesday schedule column -->
+                <th scope="col">Thursday</th> <!-- Header for the Thursday schedule column -->
+                <th scope="col">Friday</th> <!-- Header for the Friday schedule column -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8 AM - 10 AM</td>
+                <td scope="row">INFT 1206 LAB</td> <!-- Monday's first activity in this time slot -->
+                <td>Free Time</td>
+                <td>Home Study</td>
+                <td scope="row">MGMT 1223</td> <!-- Thursday's first activity in this time slot -->
+                <td>Free Time</td>
+            </tr>
+            <tr>
+                <td>10 AM - 12 PM</td>
+                <td scope="row">INFT 1207 LAB</td> <!-- Monday's second activity in this time slot -->
+                <td>Free Time</td>
+                <td>Home Study</td>
+                <td>Free Time</td>
+                <td scope="row">COSCO 1200</td> <!-- Friday's second activity in this time slot -->
+            </tr>
+            <tr>
+                <td>12 PM - 02 PM</td>
+                <td>Free Time</td>
+                <td scope="row">COSCO 1200</td> <!-- Tuesday's third activity in this time slot -->
+                <td>Home Study</td>
+                <td>Free Time</td>
+                <td>Free Time</td>
+            </tr>
+            <tr>
+                <td>02 PM - 04 PM</td>
+                <td>Free Time</td>
+                <td scope="row">MGMT 1223</td> <!-- Tuesday's fourth activity in this time slot -->
+                <td>Home Study</td>
+                <td scope="row">INFT 1207</td> <!-- Thursday's fourth activity in this time slot -->
+                <td scope="row">MGMT 1224</td> <!-- Friday's fourth activity in this time slot -->
+            </tr>
+            <tr>
+                <td>04 PM - 06 PM</td>
+                <td>Free Time</td>
+                <td>Free Time</td>
+                <td>Home Study</td>
+                <td>Free Time</td>
+                <td scope="row">INFT 1206</td> <!-- Friday's fifth activity in this time slot -->
+            </tr>
+            <tr>
+                <td>06 PM - 08 PM</td>
+                <td>Free Time</td>
+                <td>Free Time</td>
+                <td>Home Study</td>
+                <td scope="row">COSCO 1200</td> <!-- Thursday's fifth activity in this time slot -->
+                <td>Free Time</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

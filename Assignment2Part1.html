@@ -1,0 +1,80 @@
+<!-- 
+    Author: Jay Solanki (100959351)
+    File Name: A2-P1.html
+    Date Created: 09 October 2024
+    Purpose: A webpage about Mozilla, including a video, logos, and images with responsive design elements.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mozilla - Rocking the Free Web</title>
+    <link rel="stylesheet" href="Style1.css"> <!-- Reference to the external stylesheet -->
+</head>
+<body>
+    <!-- Main Header Section -->
+    <header>
+        <h1>Mozilla</h1>
+        <!-- Displaying the Mozilla logo image -->
+        <img src="C:\Users\Jay\OneDrive\Pictures\firefox-logo120.png" alt="Mozilla Logo" class="mozilla-logo">
+    </header>
+
+    <!-- Introduction Section containing a video and text -->
+    <section class="intro">
+        <div class="video">
+            <!-- Embedded YouTube video providing information about Mozilla -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg?si=2nK90n4ixd56xAy4" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                    encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen></iframe>
+        </div>
+        <!-- Text block describing Mozilla's mission and initiatives -->
+        <div class="text">
+            <h2>Rocking the Free Web</h2>
+            <p>
+                Mozilla is a global community of technologists, thinkers, and builders, working together to keep the Internet open and accessible. 
+                They believe in the power of collaboration and human connection on an open platform, essential for personal and collective growth. 
+                Click the images below to learn more about Mozilla's initiatives. Red panda image by Mathias Appel.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section for displaying logos with links -->
+    <section class="gallery">
+        <div class="row">
+            <!-- Link to Firefox download page, showing the Firefox logo -->
+            <a href="https://www.mozilla.org/en-US/firefox/new/" title="Download Firefox">
+                <img src="C:\Users\Jay\OneDrive\Pictures\mdn-logo-dino-head.png" alt="Firefox Logo" 
+                     srcset="C:\Users\Jay\OneDrive\Pictures\firefox-logo120.png" sizes="(max-width: 100px) 100px, 100px">
+            </a>
+            <!-- Link to the Mozilla Dinosaur page with its logo -->
+            <a href="https://www.mozilla.org/en-US/" title="Mozilla Dinosaur">
+                <img src="C:\Users\Jay\OneDrive\Pictures\mozilla-dinosaur400.png" alt="Dinosaur Logo" 
+                     srcset="C:\Users\Jay\OneDrive\Pictures\mozilla-dinosaur400.png" sizes="(max-width: 100px) 100px, 100px">
+            </a>
+            <!-- Link to Firefox Add-ons page with its respective logo -->
+            <a href="https://addons.mozilla.org/" title="Firefox Add-ons">
+                <img src="C:\Users\Jay\OneDrive\Pictures\mozilla-dinosaur400.png" alt="Add-ons Logo" 
+                     srcset="C:\Users\Jay\OneDrive\Pictures\firefox-addons400.jpg" sizes="(max-width: 100px) 100px, 100px">
+            </a>
+            <!-- Link to MDN Web Docs site with its logo displayed -->
+            <a href="https://developer.mozilla.org/en-US/" title="MDN Logo">
+                <img src="C:\Users\Jay\OneDrive\Pictures\mdn-logo-dino-head.png" alt="MDN Logo" 
+                     srcset="C:\Users\Jay\OneDrive\Pictures\mdn-logo-dino-head.png" sizes="(max-width: 100px) 100px, 100px">
+            </a>
+        </div>
+    </section>
+
+    <!-- Section for displaying a responsive image of a red panda -->
+    <section class="red-panda">
+        <!-- Responsive image setup using the picture element -->
+        <picture>
+            <source media="(max-width: 600px)" srcset="C:\Users\Jay\OneDrive\Pictures\red-panda-landscape.jpg">
+            <img src="C:\Users\Jay\OneDrive\Pictures\red-panda-landscape.jpg" alt="Red Panda">
+        </picture>
+        <!-- Credit for the red panda image -->
+        <p>Red panda picture by Mathias Appel.</p>
+    </section>
+</body>
+</html>
