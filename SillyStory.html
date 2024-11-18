@@ -1,0 +1,50 @@
+<!--
+Name: Jay Solanki (100959351)
+File: SillyStory.html
+Date: 17 November 2024
+Description: A simple webpage for generating a random silly story based on user input and temperature format selection.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Story Generator</title>
+    <link rel="stylesheet" href="Silly.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Silly Story Generator</h1>
+    </header>
+    <main>
+        <form>
+            <!-- Input field for the user to enter a custom name -->
+            <label for="customName">Enter custom name:</label>
+            <input type="text" id="customName" placeholder="e.g., Bob" aria-label="Enter a custom name">
+            <br><br>
+            <!-- Radio buttons to select the temperature format -->
+            <fieldset>
+                <legend>Select your region:</legend>
+                <label>
+                    <input type="radio" name="temperature" value="us" checked> US
+                </label>
+                <label>
+                    <input type="radio" name="temperature" value="uk"> UK
+                </label>
+            </fieldset>
+        </form>
+        <br>
+        <!-- Button to generate the random story -->
+        <button id="generate">Generate random story</button>
+        <!-- Story output area -->
+        <section id="story-container" aria-live="polite">
+            <p id="story" hidden></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jay Solanki</p>
+    </footer>
+    <script src="Silly.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+</html>

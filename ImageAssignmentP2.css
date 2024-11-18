@@ -1,0 +1,76 @@
+/* ImagePart2.css: Stylish and dynamic styling for the image gallery */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#gallery {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+#main-image-container {
+    position: relative;
+    padding: 10px;
+}
+
+#main-image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#toggle-theme {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#toggle-theme:hover {
+    background-color: #3700b3;
+}
+
+#thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,46 @@
+/* Sstyle.css: Styling for the Silly Story Generator */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #6200ea;
+    color: #fff;
+    padding: 10px 0;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+#story {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #ffcc80;
+    border-radius: 5px;
+}
