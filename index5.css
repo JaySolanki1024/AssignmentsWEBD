@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f4f8;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    background-color: #e0e0f0;
+    color: #333;
+    padding: 1.5rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-family: 'Cursive', sans-serif;
+    font-size: 2.5rem;
+    color: #555;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.search {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.search input {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.search button {
+    padding: 0.5rem 1rem;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    flex: 3;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.related {
+    flex: 1;
+    background: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.related ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.related li {
+    margin-bottom: 0.5rem;
+}
+
+.related a {
+    text-decoration: none;
+    color: #007ACC;
+    font-weight: bold;
+}
